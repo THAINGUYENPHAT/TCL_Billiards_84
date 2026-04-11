@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TCL_Billiards_84</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            <a href="branches.html">Chi nhánh</a>
+        </nav>
+        <h1>TCL Billiards 84</h1>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+        <h2>Chơi là chất - Đánh là mê</h2>
+        <a href="#booking" class="btn">Đặt bàn ngay</a>
+    </section>
+
+    <!-- GIỚI THIỆU -->
+    <section class="about">
+        <div class="about-container">
+
+            <div class="about-text">
+                <h2>Giới thiệu</h2>
+                <p>
+                    TCL Billiards 84 là nơi lý tưởng để giải trí, giao lưu và thể hiện đam mê bida.
+                    Không gian thoáng mát, bàn chuẩn, phục vụ tận tình.
+                </p>
+
+                <div class="divider"></div>
+
+                <h3>Dịch vụ</h3>
+                <ul class="services-list">
+                    <li> Bàn bida chuẩn thi đấu</li>
+                    <li> Nước uống đa dạng</li>
+                    <li> Không gian máy lạnh</li>
+                    <li> Wifi tốc độ cao</li>
+                </ul>
+            </div>
+
+            <div class="about-image">
+                <img src="img/player.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ƯU ĐÃI -->
+    <section class="promo">
+        <h2>Ưu đãi</h2>
+        <ul>
+            <li>🔥 Giảm 10% cho sinh viên</li>
+            <li>🎁 Tặng 1 giờ chơi khi đặt 5 giờ</li>
+        </ul>
+    </section>
+
+    <!-- BẢNG GIÁ -->
+    <section class="price">
+        <h2>Bảng giá</h2>
+        <ul>
+            <li>30.000đ / giờ (ban ngày)</li>
+            <li>20.000đ / giờ (ban đêm)</li>
+            <li>mở cửa từ thứ 2 - chủ nhật, từ 7h tới 22h</li>
+        </ul>
+    </section>
+
+    <!-- LIÊN HỆ -->
+    <section class="contact" id="booking">
+        <h2>Liên hệ / Đặt bàn</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Tên của bạn" required>
+            <input type="text" placeholder="Zalo / SĐT" required>
+
+            <button type="submit">Gửi thông tin</button>
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 TCL Billiards 84</p>
+    </footer>
+
 </body>
+
+<script src="script.js"></script>
+
 </html>

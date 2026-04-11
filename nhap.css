@@ -1,0 +1,198 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    text-align: center;
+    background: rgb(0, 1, 30);
+    color: rgb(255, 255, 255);
+}
+
+
+
+header {
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: rgb(83, 206, 255);
+    text-shadow: 0 0 16px rgb(142, 206, 255);
+}
+
+header a {
+    text-decoration: none;
+    color: #e2eeff;
+    font-weight: 500;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: rgb(15, 159, 255);
+    font-weight: 500;
+}
+
+
+
+.banner {
+    background: linear-gradient(rgb(9, 18, 35, 0.3), rgb(9, 18, 35, 0.5)), url(img/play.avif) center/ cover no-repeat;
+    padding: 130px 20px;
+    
+}
+
+.banner h2 {
+    margin-bottom: 60px;
+    color: rgb(83, 206, 255);
+    text-shadow: 0 0 16px rgb(25, 155, 255), 0 0 16px rgb(26, 64, 93);
+    ;
+    font-size: 40px;
+}
+
+.banner a {
+    background: rgb(33, 166, 255);
+    color: #e2eeff;
+    padding: 20px;
+    border-radius: 13px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    background: rgb(15, 159, 255);
+    color: #e2eeff;
+    box-shadow: 0 0 16px rgb(15, 159, 255);
+    padding: 20px;
+    border-radius: 13px;
+    font-size: 14px;
+}
+
+
+
+.intro {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+    transition: 0.3s;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(15, 159, 255);
+}
+
+.intro:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 0 16px rgb(15, 159, 255);
+}
+
+.info {
+    text-align: left;
+}
+
+.info div {
+    margin-bottom: 20px;
+}
+
+.intro h2,
+h3 {
+    color: rgb(15, 159, 255);
+    text-shadow: 0 0 16px rgb(15, 159, 255);
+    margin-bottom: 5px;
+}
+
+.intro img {
+    width: 20%;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.intro ul {
+    list-style: none;
+}
+
+.intro li {
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    background: rgb(0, 30, 66);
+    border-left: 3px solid rgb(15, 159, 255);
+    border-radius: 8px;
+}
+
+.menu {
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 8px rgb(15, 159, 255);
+}
+
+.menu h2 {
+    color: rgb(15, 159, 255);
+    text-shadow: 0 0 16px rgb(15, 159, 255);
+}
+
+.menu:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 0 16px rgb(15, 159, 255);
+}
+
+
+
+.contact{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 0 8px rgb(15, 159, 255);
+}
+.contact:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 0 16px rgb(15, 159, 255);
+}
+.contact h2{
+    color: rgb(15, 159, 255);
+    text-shadow: 0 0 16px rgb(15, 159, 255);
+}
+.contact .contactform{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.contact  input{
+    margin-bottom: 10px;
+    padding: 17px;
+    border-radius: 8px;
+    background: rgb(0, 30, 66);
+    border: 1px solid rgb(15, 159, 255);
+}
+.contact .contactform button{
+    padding: 17px;
+    border-radius: 8px;
+    background: rgb(0, 30, 66);
+    color: rgb(0, 174, 255);
+    border: 1px solid rgb(15, 159, 255);
+
+}
+.contact .contactform button:hover{
+    background: rgb(15, 159, 255);
+    color: #e2eeff;
+    box-shadow: 0 0 16px rgb(15, 159, 255);
+    transition: 0.3s;
+}
+
+
+
+
+footer{
+    padding: 20px;
+    border-top: 1px solid rgb(15, 159, 255);
+    box-shadow: 0 0 8px rgb(15, 159, 255);;
+}
