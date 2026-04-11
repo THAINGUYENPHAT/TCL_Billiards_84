@@ -83,7 +83,7 @@ h2 {
 .price,
 .contact,
 .promo,
-.feedback{
+.feedback {
     margin: 20px auto;
     width: 80%;
     background: rgba(0, 20, 40, 0.6);
@@ -175,9 +175,10 @@ ul {
     margin: auto;
 }
 
-.feedback > section {
+.feedback>section {
     flex: 1;
 }
+
 /* FORM */
 form {
     display: flex;
@@ -265,17 +266,28 @@ footer {
     .about,
     .price,
     .contact,
-    .promo {
+    .promo,
+    .feedback {
         width: 95%;
+    }
+
+    .banner {
+        padding: 60px 20px;
     }
 
     .banner h2 {
         font-size: 24px;
     }
 
+
     nav {
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+
+    .feedback h2,
+    .feedback li {
+        font-size: 12px;
     }
 }
