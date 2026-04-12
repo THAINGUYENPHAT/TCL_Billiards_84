@@ -30,7 +30,7 @@ form.addEventListener("submit", function (e) {
   //     message.innerText = "Có lỗi xảy ra!";
   //   });
 
-  fetch("http://localhost:3000/booking", {
+  fetch("https://tcl-backend-5h14.onrender.com/booking", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
