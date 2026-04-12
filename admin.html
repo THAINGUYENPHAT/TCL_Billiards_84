@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin - Booking</title>
+</head>
+<body>
+
+<h1>Danh sách đặt bàn</h1>
+<ul id="list"></ul>
+
+<script>
+fetch("http://localhost:3000/booking")
+  .then(res => res.json())
+  .then(data => {
+    let list = document.getElementById("list");
+
+    data.forEach(item => {
+      let li = document.createElement("li");
+      li.innerText = item.name + " - " + item.phone;
+      list.appendChild(li);
+    });
+  });
+</script>
+
+</body>
+</html>
